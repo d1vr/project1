@@ -1,0 +1,64 @@
+nav{
+  position: fixed;
+  width: 100%;
+  text-align: right;
+  font-size: 24pt;
+  top: 0%;
+  right: 5px;
+  background-color: #616161;
+  color: #616161;
+}
+@media (max-width: 500px){
+  nav{
+    display: none;
+  }
+}
+a{
+  color: #ffff;
+}
+main{
+  text-align: center;
+  background-color: #3c3c3c;
+    font-family: serif;
+}
+h1{
+  font-size: 30pt;
+  font-style: italic;
+}
+h2{
+  font-size: 11pt;
+}
+p{
+  font-size: 12pt;
+}
+h3{
+  font-size:11pt;
+}
+#welcome-section{
+  background-color:#b4b4b4;
+  color: #3c3c3c;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  height: 100vh;
+}
+#projects{
+  background-color: #787878;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  height: 100vh;
+}
+ol{
+  text-align:left;
+  list-style-type: circle;
+}
+#contact{
+  background-color: #616161;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  height: 100vh;
+}
